@@ -1,0 +1,108 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "HELLO -WORLD",
+                    "output": "HELLO-WORLD",
+                    "type": "CLI"
+                },
+                "score": "",
+                "visible": "all",
+                "result": {
+                    "PASS": true,
+                    "violations": [
+                        ""
+                    ]
+                }
+            },
+            {
+                "checkName": "2",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "CON-\nCAT",
+                    "output": "CON-CAT",
+                    "type": "STDIN"
+                },
+                "score": "",
+                "visible": "all",
+                "result": {
+                    "PASS": true,
+                    "violations": [
+                        ""
+                    ]
+                }
+            },
+            {
+                "checkName": "3",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "MAKE\nOVER",
+                    "output": "MAKEOVER",
+                    "type": "STDIN"
+                },
+                "score": "",
+                "visible": "all",
+                "result": {
+                    "PASS": true,
+                    "violations": [
+                        ""
+                    ]
+                }
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "0",
+                "visible": "eval",
+                "result": {
+                    "PASS": true,
+                    "violations": [
+
+                    ]
+                }
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "undefined",
+        "system": "100"
+    },
+    "lastSaved": "20141218 120725",
+    "resultSummary": {
+        "blackboxtests": {
+            "totalchecks": 3,
+            "pass": 3,
+            "fail": 0,
+            "error": 0,
+            "skipped": 0,
+            "groupScore": 0
+        },
+        "system": {
+            "totalchecks": 1,
+            "pass": 1,
+            "fail": 0,
+            "error": 0,
+            "skipped": 0,
+            "groupScore": 0
+        },
+        "overallScore": 0
+    },
+    "resultLastSaved": "20141218 121213"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="cxxtest" date="Thu Dec 18 06:46:02 2014" tests="2" errors="0" failures="0" time="0" >
+    <testcase classname="String_cat_no_strcpyTest" name="test_Unit_Test_1" line="15">
+        <warning line="16" >Test skipping is not supported without exception handling.</warning>
+    </testcase>
+    <testcase classname="String_cat_no_strcpyTest" name="test_Unit_Test_2" line="19" />
+</testsuite>

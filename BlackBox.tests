@@ -1,0 +1,23 @@
+[
+    {
+        "1": {
+            "input": "HELLO -WORLD",
+            "output": "HELLO-WORLD",
+            "type": "CLI"
+        }
+    },
+    {
+        "2": {
+            "input": "CON-\nCAT",
+            "output": "CON-CAT",
+            "type": "STDIN"
+        }
+    },
+    {
+        "3": {
+            "input": "MAKE\nOVER",
+            "output": "MAKEOVER",
+            "type": "STDIN"
+        }
+    }
+]
