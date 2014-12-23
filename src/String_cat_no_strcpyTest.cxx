@@ -19,12 +19,12 @@ int main( int argc, char *argv[] ) {
     return status;
 }
 bool suite_String_cat_no_strcpyTest_init = false;
-#include "/var/www/html/codeit/workspace/String_cat_no_strcpy/src/String_cat_no_strcpyTest.h"
+#include "/var/www/html/codeit/workspace/String_cat_no_strcpy_exercise/src/String_cat_no_strcpyTest.h"
 
 static String_cat_no_strcpyTest suite_String_cat_no_strcpyTest;
 
 static CxxTest::List Tests_String_cat_no_strcpyTest = { 0, 0 };
-CxxTest::StaticSuiteDescription suiteDescription_String_cat_no_strcpyTest( "/var/www/html/codeit/workspace/String_cat_no_strcpy/src/String_cat_no_strcpyTest.h", 5, "String_cat_no_strcpyTest", suite_String_cat_no_strcpyTest, Tests_String_cat_no_strcpyTest );
+CxxTest::StaticSuiteDescription suiteDescription_String_cat_no_strcpyTest( "/var/www/html/codeit/workspace/String_cat_no_strcpy_exercise/src/String_cat_no_strcpyTest.h", 5, "String_cat_no_strcpyTest", suite_String_cat_no_strcpyTest, Tests_String_cat_no_strcpyTest );
 
 static class TestDescription_suite_String_cat_no_strcpyTest_test_Unit_Test_1 : public CxxTest::RealTestDescription {
 public:
