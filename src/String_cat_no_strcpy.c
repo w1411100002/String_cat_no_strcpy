@@ -18,7 +18,7 @@ void string_cat_no_strcpyMain(int argc, const char** argv, char result [])
 	{
 			if (argc < 3)
 			{
-				printf("Invalid no of arguments\n");
+				printf("Invalid no of arguments edited output now\n");
 				return;
 			}
 	    	strcpy(acString1, argv[1]);
